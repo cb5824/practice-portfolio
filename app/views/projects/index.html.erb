@@ -1,0 +1,7 @@
+<p>Projects page...</p>
+
+<ul>
+    <% @projects.each do |project| %>
+      <li><%= link_to project.title, project.url %>: <%= project.description %></li>
+    <% end %>
+</ul>

@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+
+/* Pallete!
+#D2D9DF - off white
+#62696E - grey
+#045893 - lighter bleue
+#001D31 - dark blue
+#000000 - black
+ */
+
+#top_nav{
+  background-color: #001D31;
+  color: #D2D9DF;
+  padding: 40px;
+}
+
+#top_nav a:visited{
+  color: #D2D9DF;
+}
+
+.page_header{
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}

@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Project.create(title: "Portfolio Site", url: "https://github.com/cb5824/practice-portfolio", description: "This portfolio site you are currently viewing.")
+Project.create(title: "Prepr", url: "https://github.com/cb5824/Prepr", description: "A meal planning site I made while learning at Launch Academy")
