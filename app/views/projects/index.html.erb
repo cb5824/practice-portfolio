@@ -2,6 +2,13 @@
 
 <ul>
     <% @projects.each do |project| %>
-      <li><%= link_to project.title, project.url %>: <%= project.description %></li>
+      <li>
+        <a href=<%= project.url %> class="project_link">
+        <div class="project_listing">
+            <h2><%= project.title %></h2>
+            <p><%= project.description %></p>
+        </div>
+      </a>
+      </li>
     <% end %>
 </ul>
