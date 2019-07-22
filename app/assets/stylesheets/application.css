@@ -27,10 +27,18 @@
   background-color: #001D31;
   color: #D2D9DF;
   padding: 40px;
+  position: fixed;
+  width: 100%;
+  top:0;
+  left: 0;
 }
 
 #top_nav a:visited{
   color: #D2D9DF;
+}
+
+.main{
+    margin-top: 150px;
 }
 
 .page_header{

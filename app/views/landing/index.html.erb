@@ -1,4 +1,50 @@
-<h1 class="page_header">Craig Baylis</h1>
-<div class="left_box">
-  <p>A graduate of Launch Academy Online currently working in QA. I am looking to continue to grow my skills and be a part of team creating and maintaining applications that matter.</p>
+<div class="main">
+  <h1 class="page_header">Craig Baylis</h1>
+
+  <div id="home">
+    <div class="left_box">
+      <p>A graduate of Launch Academy Online currently working in QA. I am looking to continue to grow my skills and be a part of team creating and maintaining applications that matter.</p>
+    </div>
+  </div>
+
+  <div id="skills">
+    <h3>Skills:</h3>
+    <ul>
+      <li>Ruby on Rails</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+      <li>Test Driven Development</li>
+      <li>jQuery</li>
+      <li>Sinatra</li>
+      <li>Git</li>
+    </ul>
+  </div>
+
+  <div id="projects">
+    <h3>Projects:</h3>
+
+    <ul>
+        <% @projects.each do |project| %>
+          <li>
+            <a href=<%= project.url %> class="project_link">
+              <div class="project_listing">
+                  <h2><%= project.title %></h2>
+                  <p><%= project.description %></p>
+              </div>
+            </a>
+          </li>
+        <% end %>
+    </ul>
+  </div>
+
+  <div id="contact">
+    <h3>Contact Me:</h3>
+
+    <ul>
+      <li>craig.baylis@gmail.com</li>
+      <li>linkedin.com/in/craig-baylis-95b61a5a/</li>
+      <li>github.com/cb5824</li>
+    </ul>
+  </div>
 </div>
