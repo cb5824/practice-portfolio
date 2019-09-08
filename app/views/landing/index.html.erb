@@ -23,19 +23,60 @@
 
   <div id="projects">
     <h3>Projects:</h3>
-
-    <ul>
+    <div class="scroll-wrapper">
+      <ul class="scroll-menu">
         <% @projects.each do |project| %>
-          <li>
-            <a href=<%= project.url %> class="project_link">
-              <div class="project_listing">
-                  <h2><%= project.title %></h2>
-                  <p><%= project.description %></p>
-              </div>
-            </a>
-          </li>
+            <!-- <div class="scroll-card">
+              <a href=<%= project.url %> class="project_link">
+                <div class="project_listing">
+                    <h2><%= project.title %></h2>
+                    <p><%= project.description %></p>
+                </div>
+              </a>
+            </div> -->
         <% end %>
-    </ul>
+        <div class="scroll-card">
+          <p>test 1</p>
+        </div>
+        <div class="scroll-card">
+          <p>test 2</p>
+        </div>
+        <div class="scroll-card">
+          <p>test 3</p>
+        </div>
+        <div class="scroll-card">
+          <p>test 4</p>
+        </div>
+        <div class="scroll-card">
+          <p>test 5</p>
+        </div>
+        <div class="scroll-card">
+          <p>test 6</p>
+        </div>
+        <div class="scroll-card">
+          <p>test 7</p>
+        </div>
+        <div class="scroll-card">
+          <p>test 8</p>
+        </div>
+        <div class="scroll-card">
+          <p>test 9</p>
+        </div>
+        <div class="scroll-card">
+          <p>test 10</p>
+        </div>
+      </ul>
+      <div class="paddles">
+        <button class="left-paddle paddle">
+        			<
+        </button>
+        <button class="right-paddle paddle">
+        			>
+        </button>
+      </div>
+
+    </div>
+
   </div>
 
   <div id="contact">
