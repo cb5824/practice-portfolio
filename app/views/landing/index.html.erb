@@ -1,24 +1,27 @@
 <div class="main">
-  <h1 class="page_header">Craig Baylis</h1>
 
   <div id="home">
+    <h1 class="page_header">Craig Baylis</h1>
     <div class="left_box">
       <p>A graduate of Launch Academy Online currently working in QA. I am looking to continue to grow my skills and be a part of team creating and maintaining applications that matter.</p>
     </div>
   </div>
 
   <div id="skills">
-    <h3>Skills:</h3>
-    <ul>
-      <li>Ruby on Rails</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Javascript</li>
-      <li>Test Driven Development</li>
-      <li>jQuery</li>
-      <li>Sinatra</li>
-      <li>Git</li>
-    </ul>
+    <div class="white-overlay"
+
+      <h3>Skills:</h3>
+      <ul>
+        <li>Ruby on Rails</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Test Driven Development</li>
+        <li>jQuery</li>
+        <li>Sinatra</li>
+        <li>Git</li>
+      </ul>
+    </div>
   </div>
 
   <div id="projects">
@@ -34,56 +37,28 @@
     <div class="scroll-wrapper">
       <ul class="scroll-menu">
         <% @projects.each do |project| %>
-            <!-- <div class="scroll-card">
-              <a href=<%= project.url %> class="project_link">
-                <div class="project_listing">
-                    <h2><%= project.title %></h2>
-                    <p><%= project.description %></p>
-                </div>
-              </a>
-            </div> -->
+          <div class="scroll-card">
+            <a href=<%= project.url %> class="project_link">
+              <div class="project_listing">
+                  <h2><%= project.title %></h2>
+                  <p><%= project.description %></p>
+              </div>
+            </a>
+          </div>
         <% end %>
-        <div class="scroll-card">
-          <p>test 1</p>
-        </div>
-        <div class="scroll-card">
-          <p>test 2</p>
-        </div>
-        <div class="scroll-card">
-          <p>test 3</p>
-        </div>
-        <div class="scroll-card">
-          <p>test 4</p>
-        </div>
-        <div class="scroll-card">
-          <p>test 5</p>
-        </div>
-        <div class="scroll-card">
-          <p>test 6</p>
-        </div>
-        <div class="scroll-card">
-          <p>test 7</p>
-        </div>
-        <div class="scroll-card">
-          <p>test 8</p>
-        </div>
-        <div class="scroll-card">
-          <p>test 9</p>
-        </div>
-        <div class="scroll-card">
-          <p>test 10</p>
-        </div>
       </ul>
     </div>
   </div>
 
   <div id="contact">
-    <h3>Contact Me:</h3>
+    <div class="white-overlay"
+      <h3>Contact Me:</h3>
 
-    <ul>
-      <li>craig.baylis@gmail.com</li>
-      <li>linkedin.com/in/craig-baylis-95b61a5a/</li>
-      <li>github.com/cb5824</li>
-    </ul>
+      <ul>
+        <li>craig.baylis@gmail.com</li>
+        <li>linkedin.com/in/craig-baylis-95b61a5a/</li>
+        <li>github.com/cb5824</li>
+      </ul>
+    </div>
   </div>
 </div>
