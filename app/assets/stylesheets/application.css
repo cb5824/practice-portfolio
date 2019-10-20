@@ -13,3 +13,113 @@
  *= require_tree .
  *= require_self
  */
+
+
+/* Pallete!
+
+ */
+
+#top_nav{
+  background-color: #444c5c;
+  color: #D2D9DF;
+  padding: 40px;
+  position: fixed;
+  width: 100%;
+  top:0;
+  left: 0;
+  z-index: 1;
+}
+
+#top_nav a:visited{
+  color: #D2D9DF;
+}
+
+.page_header{
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+.project_listing{
+  width: 490px;
+  height: 300px;
+  background-color: #62696E;
+  transition: background-color .5s;
+  border: 5px solid #000000;
+  border-radius: 25px;
+}
+
+.project_listing:hover{
+  background-color: #57cbce;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a.project_link{
+  text-decoration: none;
+  color: #000000;
+  width: 500px;
+}
+
+.paddle {
+	width: 3em;
+}
+
+.hidden {
+	display: none;
+}
+
+.scroll-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 600px;
+  scroll-snap-type: x mandatory;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .scroll-card {
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    scroll-snap-align: center;
+  }
+
+#projects{
+  /* display: inline-block; */
+  background-color: #ce5a57;
+}
+
+#home, #skills, #projects, #contact{
+  padding: 150px;
+  text-align: center;
+}
+
+#skills{
+  background: url("https://picsum.photos/id/180/2400/1600") no-repeat fixed center / cover;
+  position:relative;
+  border: 100px solid transparent;
+}
+
+#home{
+  background-color: #78a5a3;
+}
+
+#contact{
+  background: url("https://picsum.photos/id/238/2560/1440") no-repeat fixed center / cover;
+  position:relative;
+}
+
+.white-overlay{
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  left: 10%;
+  right: 10%;
+  top: 10%;
+}
